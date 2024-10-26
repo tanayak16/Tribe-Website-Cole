@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F2EFE6;
+}
+
+/*Navbar*/
+.navbar{
+    /* background-color: #fff; */
+    /* border: solid red; */
+}
+.logo{
+    width: 100px;
+    /* border: solid gray; */
+    margin: 20px 0 0 20px;
+}
+
+/*Hero*/
+.hero h2{
+    /* border: solid green; */
+    margin-top: 60px;
+    text-align: center;
+}
+
+/*Circle*/
+.circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: solid red; */
+    margin-top: 120px;
+}
+.circle img{
+    width: 800px;
+}
+
+/*ctext*/
+.circle{
+    /* border: solid black; */
+    background-color: white;
+    border-radius: 50%;
+    padding: 150px 75px;
+    margin-top: 70px;
+}
+.ctext{
+    /* border: solid red; */
+    text-align: center;
+}
+.papacircle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: solid orange; */
+}
+
+/*Services*/
+.papaservice{
+    /* border: solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.s1{
+    /* border: solid rgb(0, 255, 72); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.s1img img{
+    height: 300px;
+    margin-left: 100px;
+}
+.stext h1{
+    margin-bottom: 30px;
+}
+
+.s2{
+    /* border: solid rgb(0, 255, 72); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.s2img img{
+    height: 300px;
+    margin-right: 100px;
+}
+
+/*qna*/
+.qna{
+    /* border: solid red; */
+    text-align: center;
+    margin-top: 70px;
+}
+.qna ul{
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.qna ul li{
+    margin-top: 10px;
+}
+
+/*cta*/
+.cta{
+    /* border: solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ctabtn{
+    padding: 10px 30px;
+    margin: 30px 0 10px 0;
+}
+.ctatext{
+    /* border: solid #005959; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    width: 600px;
+    padding: 30px;
+    background-color: white;
+}
+
+/*footer*/
+.footer{
+    /* border: solid red; */
+    margin-top: 70px;
+    padding: 40px;
+    background-color: #005959;
+}
+.footer ul{
+    /* border: solid green; */
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+}
+.footer li{
+    list-style: none;
+}
